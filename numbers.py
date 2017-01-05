@@ -36,28 +36,52 @@ def search_matches(number,words):
 	result.sort(key=len)
 	return result
 
-result = search_matches(9100,read_words("words.txt"))
-for res in result:
-	print(res)
-
 # process file
-def process_file(inputfilename,dictfilename,outputfilename):
-	maxwords = 10
+def process_sequence(dictfilename,outputfilename):
+	maxwords = 20 # the max number of words to show for each number
+	minwords = 5 # split word if fewer than minwords found
 	dictwords = read_words(dictfilename)
-	inputfile = open(inputfilename)
 	texfile = open(outputfilename,"w")
 	texfile.write("\\documentclass{article}")
 	texfile.write("\\begin{document}")
-	for inputword in inputfile:
-		inputword = inputword.strip()
-		matches = search_matches(inputword,dictwords)
-		texfile.write("\\paragraph{" + inputword + "}")
+	texfile.write("\\title{Number Mnemonics}")
+	texfile.write("\\author{Thomas Raes}")
+	texfile.write("\\maketitle")
+	for number in range(0,2100):
+		print(number)
+		texfile.write("\\paragraph{" + str(number) + "}")
+
+		# try single word (e.g 1985)
+		matches = search_matches(number,dictwords)
 		for match in matches[0:maxwords]:
 			texfile.write(match + "\n")
+
+		# if only a few single words found, split number in two (eg. 19 and 85)
+		if(len(matches) < minwords):
+			strnumber = str(number)
+
+			# split number in two
+			first = strnumber[0:len(strnumber)/2]
+			last = strnumber[len(strnumber)/2:]
+
+			# get matches for parts
+			firstmatches = search_matches(int(first),dictwords)
+			lastmatches = search_matches(int(last),dictwords) 
+
+			# write first matches
+			texfile.write("\\subparagraph{" + first + "}")
+			for match in firstmatches[0:maxwords]:
+				texfile.write(match + "\n")
+
+			# write last matches
+			texfile.write("\\subparagraph{" + last + "}")
+			for match in lastmatches[0:maxwords]:
+				texfile.write(match + "\n")
+
+			
 	texfile.write("\\end{document}")
-	inputfile.close()
 	texfile.close()
 
-outname = "output.tex"
-#process_file("input.txt","words.txt",outname)
-#os.system("pdflatex " + outname)
+outname = "numbers.tex"
+process_sequence("words.txt",outname)
+os.system("pdflatex " + outname)
