@@ -17,7 +17,7 @@ bing4,illnes
 bu4,not
 bu4 hao3 yi4 si,to feel emberrassed
 bu2 yong4,need not
-bu4
+bu4,step
 
 can1 jia1,to participate
 can1 ting1,dining room
@@ -61,4 +61,77 @@ duo1,many
 duo1,how
 duo1 da4,how old
 duo1 shao,how many
+
+er4, two
+
+fa1 shao1,to have a fever
+fa1 yan2,to become inflamed
+fan4,meal
+fang2 zi,house
+fang2 zu1,rent
+fen1,minute
+fen1,cent
+fu4 xi2,to review
+
+gai1,should
+gan3 mao4,to have a cold
+gang1 cai2,just now
+gao1,high
+gao1 xing4,happy
+gao1,cake
+gao4 su,to tell
+ge1 ge,elder brother
+ge4,<measure word>
+gei3,to give
+gei3,to/for
+gen3,with/to follow
+gong1 zuo4,to work
+gong1 si1,company
+gou3,dog
+gu1 nian,girl
+gua4 hao4,to register
+guang1 pan2,CD
+gui4,expensive
+gui4 xing4,honorable surname
+guo2,country
+guo4,to spend
+
+hai2,in addition
+hai2 shi,or
+han4 yu3,chinese language
+han4 zi4,chinese character
+hao3,good
+hao4,number
+he1,to drink
+he2,and
+hen3,very
+hong2,very
+hong2 pu2 tao jiu3,red wine
+hui2,to return
+hui4,meeting
+hui4,to know how to, can
+
+ji3,how many
+ji4 zhe3,reporter
+ji4,to mail
+jia1 na2 da4,Canada
+jia1,family
+jian1,<measure word for rooms/houses>
+jian4,<measure word for piece>
+jiao4,to be called
+jiao1,to teach
+jiao4 shou4,professor
+jie2,festival
+jie3 jie,elder sister
+jie4 shao4,to introduce
+jin1,<measure word of weight>
+jin1 nian2,this year
+jin1 tian1,today
+jin4,to enter
+jin4 lai,to come in
+jing1 ju4,Beijing opera
+jing1 li3,manager
+jiu3,wine
+ju2,office
+ju4 hui4,party
 

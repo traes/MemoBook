@@ -70,18 +70,6 @@ def search_matches(pinyin,words):
 	result.sort(key=len)
 	return result
 
-def process(inputname):
-	inputfile = open(inputname,"r")
-	for line in inputfile:
-		line = line.strip() # remove trailing newline
-		elements = line.split(',')
-		if(len(elements) == 2):
-			pinyin = elements[0]
-			translation = elements[1]
-			mnemo = create_mnemo(pinyin)
-			print(pinyin + " => " + mnemo)
-
-
 # process file
 def process_file(inputfilename,dictfilename,outputfilename):
 	maxwords = 10
@@ -103,12 +91,21 @@ def process_file(inputfilename,dictfilename,outputfilename):
 		if(len(elements) == 2):
 			pinyin = elements[0]
 			translation = elements[1]
-			mnemo = create_mnemo(pinyin)
-			matches = search_matches(mnemo,dictwords)
 			texfile.write("\\paragraph{" + pinyin + "}")
 			texfile.write("(" + translation + ") ")
-			for match in matches[0:maxwords]:
-				texfile.write(match + "\n")
+
+			pinyinparts = pinyin.split(" ")
+			for part in pinyinparts:
+				mnemo = create_mnemo(part)
+				matches = search_matches(mnemo,dictwords)
+
+				# only write part subparts if there are multiple
+				if(len(pinyinparts) > 1):
+					texfile.write("\\subparagraph{" + part + "}")
+				# write matches
+				for match in matches[0:maxwords]:
+					texfile.write(match + "\n")
+
 
 	texfile.write("\\end{document}")
 	inputfile.close()
