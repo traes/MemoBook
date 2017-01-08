@@ -1,7 +1,7 @@
 a4,ah
 ai4,to love
 
-ba,<modal particle>
+ba,*modal particle*
 ba4 ba,dad
 bai2 bai2,bye bye
 bai3,hundred
@@ -45,7 +45,7 @@ dan4 gao1,cake
 dang1 ran2,as it should be
 dao4,to arrive
 de2,to have
-de,<possessive particle>
+de,*possessive particle*
 deng3,to wait
 di4 di,younger brother
 dian3,o'clock
@@ -81,7 +81,7 @@ gao1 xing4,happy
 gao1,cake
 gao4 su,to tell
 ge1 ge,elder brother
-ge4,<measure word>
+ge4,*measure word*
 gei3,to give
 gei3,to/for
 gen3,with/to follow
@@ -116,15 +116,15 @@ ji4 zhe3,reporter
 ji4,to mail
 jia1 na2 da4,Canada
 jia1,family
-jian1,<measure word for rooms/houses>
-jian4,<measure word for piece>
+jian1,*measure word for rooms/houses*
+jian4,*measure word for piece*
 jiao4,to be called
 jiao1,to teach
 jiao4 shou4,professor
 jie2,festival
 jie3 jie,elder sister
 jie4 shao4,to introduce
-jin1,<measure word of weight>
+jin1,*measure word of weight*
 jin1 nian2,this year
 jin1 tian1,today
 jin4,to enter
@@ -134,4 +134,54 @@ jing1 li3,manager
 jiu3,wine
 ju2,office
 ju4 hui4,party
+
+ka1 fei1,coffee
+kai1,to start
+kai1 xue2,to start school
+kan4,to watch
+kan4 bing4,to see a doctor
+kao3 ya1,roast duck
+ke3 ai4,cute
+ke3 neng2,maybe
+ke3 shi4,but
+ke3 yi3,may
+ke4,quarter of an hour
+ke4,class
+ke4 wen2,text
+kong3 pa4,to be afraid/perhaps
+kou3,*measure word for people*
+kou3 yu3,spoken language
+kuai4,*measure word for money*
+kuai4 le4,happy
+
+lai2,to come
+lao3 shi1,teacher
+le,*modal particle*
+leng3,cold
+li3 wu4,gift
+lian4,to practice
+lian4 xi2,to practice/exercise
+liang3,two
+ling2,zero
+liu2 xue2 sheng1,international student
+lou2,building
+lü3 xing2,to travel
+
+ma1 ma,mom
+ma,*interrogative particle*
+mai3,to buy
+mang2,busy
+mao2,dime
+mei2,not
+mei2 guan1 xi,never mind
+mei3,every
+mei3,beautiful
+mei3 guo2,USA
+mei3 shu4,fine arts
+mei4 mei,younger sister
+men,*plural*
+mian4,noodles
+ming2 pian4,calling card
+ming2 zi,name
+ming2 tian1,tomorrow
 
