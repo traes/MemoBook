@@ -165,11 +165,12 @@ liang3,two
 ling2,zero
 liu2 xue2 sheng1,international student
 lou2,building
-lü3 xing2,to travel
+luu3 xing2,to travel
 
 ma1 ma,mom
 ma,*interrogative particle*
 mai3,to buy
+mai4,to sell
 mang2,busy
 mao2,dime
 mei2,not
@@ -184,4 +185,198 @@ mian4,noodles
 ming2 pian4,calling card
 ming2 zi,name
 ming2 tian1,tomorrow
+
+na3,which
+nar3,where
+na3 li,no
+na4,that
+nar4,there
+nai3 nai,grandmother on father's side
+nan2,male
+nan2 fang1,south
+ne,*model particle for questions*
+neng2,be able to
+ni3,you
+ni3 men,you plural
+nian4,year
+nian4,to read
+nin2,you polite
+nuu3,female
+nuu3 er4,daughter
+
+ou1 zhou1,Europe
+
+peng2 you,friend
+piao4 liang,pretty
+ping2,bottle
+ping2 guo3,apple
+pu2 tao,grape
+
+qi3,to get up
+qi3 chuang2,to get up
+qian2,money
+qing3,please
+qing3 wen4,may I ask
+qiu2,ball
+qu4,to go
+quan2,whole
+quan2 shen1,all over the body
+
+rang4,to let/allow
+ren2,people
+ren4 shi,to know somebody
+rong2 yi4,easy
+
+san4 bu4,to walk
+sang3 zi,throat
+sao3,to sweep
+shang1,trade
+shang1 chang3,market
+shang4,above
+shang4,to ascend/go to
+shang4 hai3,shanghai
+shang4 ke4,to go to class
+shang4 wu3,morning
+shao1,to burn
+shei2,who
+shen1,body
+shen1 ti3,body
+shen2 me,what
+sheng1,new
+sheng1 ci2,new word
+sheng1 ri,birthday
+sheng4 dan4,Christmas
+shi1 fu,master worker
+shi2 hou,moment
+shi2 jian1,time
+shir4,matter
+shi4,to be
+shou4 mian4,birthday noodles
+shu1,book
+shu1 fu,comfortable
+shu3,to be born in the year of
+shu4,number
+shui3,water
+shui4,to sleep
+shui4 jiao4,to sleep
+shuo1,to say
+si1 ji1,driver
+si4,four
+song4,to give
+su4 she4,dormitory
+sui4,year of age
+sui4 shu,years of age
+sun1 nuur,granddaughter on son's side
+
+ta1,he
+ta1 men,they
+ta1,she
+tai4,too
+teng2,painful
+tian1,day
+tian1 qi4,weather
+ting1,to listen
+ting1 shuo1,to be told
+tou2,head
+
+wai4,outside
+wai4 guo2,foreign country
+wai4 po2,grandmother on mother's side
+wai4 yu3,foreign language
+wanr2,to have fun
+wan3,late
+wan3 shang,evening
+wei4,for
+wei4 shen2 me,why
+wei4,*measure word for persons*
+wei4,hello
+wen2 xue2,literature
+wen4,to ask
+wen4 ti2,question
+wo3,I
+wo3 men,we
+
+xi1,west
+xi1 yao4,western medicine
+xi3,to wash
+xi3 huan,to like
+xi4,department
+xia4,below/next
+xia4 wu3,afternoon
+xian1 sheng,mr
+xian4 zai4 now
+xiang1 jiao1 ping2 guo3,apple with banana taste
+xiang1 jiao1,banana
+xiang3,to think
+xiao3,little
+xiao3 jie3,young lady
+xie3,to write
+xie4 xie,to thank
+xing1 qi1,week
+xing1 qi1 ri4,sunday
+xing2,to be OK
+xing4,surname
+xue2,to study
+xue2 sheng,student
+xue2 xi2,to learn
+xue2 yuan4,institute
+
+ya1,duck
+yao4,medicine
+yao4,to want
+yao4,must
+ye3,also
+yi4 dianr4,a little bit
+yi2 gong4,altogether
+yi4 qi3,together
+yi2 xia4,*quick action*
+yi1 fu,clothes
+yi1 sheng1,doctor
+yi1 yuan4,hospital
+yin1 yue4,music
+ying1 gai1,should
+ying1 guo2,england
+ying1 yu3,english
+ying2,shadow
+you2,to mail
+you2 ju2,post office
+you2 yong3,to swim
+you3,to have
+you3 dianr3,somewhat
+you3 ming2,famous
+you3 yi4 si,interesting
+yu3 fa3,grammar
+yu3 yan2,language
+yuan4 yi4,to be willing to
+
+zai4,again
+zai4 jian4,goodbye
+zai4,to be
+zai4,at
+zang1,dirty
+zen3 me,how
+zen3 me yang4,how is it
+zhang1,*measure word for flat objects*
+zhao3,to look for
+zhao3,to give change
+zhao4 pian4,picture
+zhe4,this
+zher4,here
+zhen1,really
+zhi1 dao,to know
+zhong1 guo2,china
+zhong1 wen2,chinese
+zhong1 wu3,noon
+zhong1 xue2,middle school
+zhong1 yao4,chinese medicine
+zhu4,to live
+zhu4 yuan4,to be in hospital
+zhu4,to wish
+zhu4 he4,to congratulate
+zhuan1 ye4,speciality
+zi4,character
+zu1,to rent
+zuo2 tian1,yesterday
+zuo4,to sit
+zuo4,to do/to make
 
