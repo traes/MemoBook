@@ -51,11 +51,20 @@ def process_file(inputfilename,dictfilename,outputfilename):
 	inputfile = open(inputfilename)
 	texfile = open(outputfilename,"w")
 
-	texfile.write("\\documentclass{article}")
-	texfile.write("\\begin{document}")
-	texfile.write("\\title{Pinyin Mnemonics}")
-	texfile.write("\\author{Thomas Raes}")
-	texfile.write("\\maketitle")
+	texfile.write("\\documentclass{article}\r")
+	texfile.write("\\begin{document}\r")
+	texfile.write("\\title{Pinyin Mnemonics}\r")
+	texfile.write("\\author{Thomas Raes}\r")
+	texfile.write("\\maketitle\r")
+
+	texfile.write("\\begin{tabular}{| c | c | l |}\r")
+	texfile.write("\\hline tone & letter & reason \\\\ \\hline 0 & L & nuLL \\\\ 1 & N & eeN, oNe \\\\ 2 & T & Twee, Two \\\\ 3 & D & Drie \\\\ 4 & R & vieR, fouR \\\\ \\hline") 
+	texfile.write("\\end{tabular}")
+
+	texfile.write("\\begin{itemize}")
+	texfile.write("\\item{mai3} (to buy): mai with 3rd tone $\\rightarrow$ d + mai $\\Rightarrow$ handmaid")
+	texfile.write("\\item{mai4} (to sell): mai with 4th tone $\\rightarrow$ r + mai $\\Rightarrow$ airmail")
+	texfile.write("\\end{itemize}")
 
 	for line in inputfile:
 		line = line.strip() # remove trailing newline
@@ -115,4 +124,3 @@ def process_file(inputfilename,dictfilename,outputfilename):
 outname = "pinyin.tex"
 process_file("pinyin.txt","words.txt",outname)
 os.system("pdflatex " + outname)
-os.system("xdg-open " + outname)
