@@ -42,6 +42,44 @@ def search_subs(pinyin,words):
 	result.sort(key=len)
 	return result
 
+# relaxed search (letters can appear between tone and rest of pinyin)
+def search_subs_easy(pinyin,words):
+	result = set([])
+
+	regex = ".*"
+	regex += pinyin[0]
+	regex += "[^nltd]*"
+	regex += pinyin[1:]
+	regex += ".*"
+	test = re.compile(regex)
+
+	for word in words:
+		if(test.match(word)):
+			result.add(word)
+
+	result = list(result)
+	result.sort(key=len)
+	return result
+
+# relaxed search (letters can appear between tone and rest of pinyin)
+def search_subs_real_easy(pinyin,words):
+	result = set([])
+
+	regex = ""
+	for char in pinyin:
+		regex += char
+		regex += "[^aeoiunr]*"
+	test = re.compile(regex)
+
+	for word in words:
+		if(test.match(word)):
+			result.add(word)
+
+	result = list(result)
+	result.sort(key=len)
+	return result
+
+
 # process file
 def process_file(inputfilename,dictfilename,outputfilename):
 	maxwords = 20
@@ -54,7 +92,6 @@ def process_file(inputfilename,dictfilename,outputfilename):
 	texfile.write("\\documentclass{article}\r")
 	texfile.write("\\begin{document}\r")
 	texfile.write("\\title{Pinyin Mnemonics}\r")
-	texfile.write("\\author{Thomas Raes}\r")
 	texfile.write("\\maketitle\r")
 
 	texfile.write("\\begin{tabular}{| c | c | l |}\r")
@@ -80,47 +117,29 @@ def process_file(inputfilename,dictfilename,outputfilename):
 
 			for part in pinyinparts:
 
+				# only write part subparts if there are multiple
+				if(len(pinyinparts) > 1):
+					texfile.write("\\subparagraph{" + part + "}")
+
 				# create the mnemo (e.g "ban4 -> rban")
 				mnemo = create_mnemo(part)
 
 				# search memory aids
 				subs = search_subs(mnemo,dictwords)
-
-				# only write part subparts if there are multiple
-				if(len(pinyinparts) > 1):
-					texfile.write("\\subparagraph{" + part + "}")
+				subs += search_subs_easy(mnemo,dictwords)
+				subs += search_subs_real_easy(mnemo,dictwords)
 
 				# write the subs
 				for sub in subs[0:maxwords]:
 					texfile.write(sub + "\n")
-
-				# if not enough subs found, split up word
-				if(len(subs) < minwords):
-
-					# split number in two
-					first = mnemo[0:len(mnemo)/2]
-					last = mnemo[len(mnemo)/2:]
-
-					# get matches for parts
-					firstmatches = search_subs(first,dictwords)
-					lastmatches = search_subs(last,dictwords) 
-
-					# write first matches
-					texfile.write("\\subparagraph{[" + first + "]}")
-					for match in firstmatches[0:maxwords]:
-						texfile.write(match + "\n")
-
-					# write last matches
-					texfile.write("\\subparagraph{[" + last + "]}")
-					for match in lastmatches[0:maxwords]:
-						texfile.write(match + "\n")
-
-
 		
 	texfile.write("\\end{document}")
 	inputfile.close()
 	texfile.close()
 
-outname = "pinyin.tex"
-process_file("pinyin.txt","words.txt",outname)
-os.system("pdflatex " + outname)
+def run():
+	outname = "pinyin.tex"
+	process_file("pinyin.txt","words.txt",outname)
+	os.system("pdflatex " + outname)
+
+run()

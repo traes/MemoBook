@@ -45,7 +45,6 @@ def process_sequence(dictfilename,outputfilename):
 	texfile.write("\\documentclass{article}")
 	texfile.write("\\begin{document}")
 	texfile.write("\\title{Number Mnemonics}")
-	texfile.write("\\author{Thomas Raes}")
 	texfile.write("\\maketitle")
 	for number in range(0,2100):
 		print(number)
