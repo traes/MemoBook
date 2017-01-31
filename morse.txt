@@ -1,0 +1,27 @@
+[dot] = r [line] = e
+a: are are acre area ares ares arse acre area arie
+b: buchernarr biervoorraad buffervoorraad bladerprogramma bittergarnituur bedrijfsvoorraad beursorganisator bioterroristisch bachelorprogramma bedrijfsprogramma
+c: cerner cerero clearer coercer caterer cerebra coerver cerbero cerebro cercear
+d: derart derrick derrick derrida derrick domherr decorar diferir digerir delirar
+e: 
+f: forrer farrier furrier farrear furrier farriers furriers farrier's furrier's forwarder
+g: geer geler gener geers geert geert gever gezer geber geier
+h: horrorizar
+i: irr irrig irrupt irrtum irisar irrupts invroor irmgard irrsinn ignorar
+j: jahresende jaarfeesten jahresessen jahresmiete jachttrofeeen jahreswechsel jaargemiddelde jaargemiddelden jaargemiddeldes journaalbeelden
+k: kerke kerel kerem keren keren kerze kernel kolere kleren keurde
+l: laurierdrop lohntarifvertrag luchtvaartverdrag
+m: mee meek meme meed meet mete moee mede meed meek
+n: near nebr nerf nero nerd nero nero nier noer nerd
+o: oebele oedeem oekene oebeles oedelem oedemen oefende oefenen oekense oelegem
+p: prefer preker pareer pureer prever prefers premier presser preterm probeer
+q: queered queerest queerness quoteerde quoteerden queerness's quotiseerde quantentheorie quellverzeichnis
+r: rear roer roer raer reir roer raver rifer river rover
+s: socarrar somarrar susurrar sprachrohr strahlrohr susurrador schnurrbart starrkrampf sorrycultuur sparprogramm
+t: te te te te te the tea tie toe tue
+u: unbarred unmarred umruhren urkirche urkrafte urdimbre unhurried unmarried unworried unarmored
+v: voorarrest voorjaarstrek voortborduren vorfahrtrecht voorraadaftrek voorraadruimte voortborduurde voortbordurend vorwartsfahren voorraadkaarten
+w: wrede wreed wreef wreek wreken wreekt wrevel wreven wreathe wreaked
+x: xerografie
+y: yergueme
+z: zeveraar zeveraars zenderpark zwemleraar zehnerpaar zonneterras zeilervaring zeetransport zigeunerrock zigeunervrouw
